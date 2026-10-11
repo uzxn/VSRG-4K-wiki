@@ -2,7 +2,7 @@ site_name: 下落式音游齐民要术
 site_url: https://electrowind.github.io/VSRG-4K-wiki
 
 theme:
-  language: 'zh'
+  language: "zh"
   name: material
   palette:
     scheme: nthing
@@ -18,7 +18,7 @@ theme:
     - content.action.view
 
   font:
-    text: uuz
+    text: "Fira Sans"
 
 repo_url: https://github.com/electrowind/VSRG-4K-wiki
 repo_name: electrowind/VSRG-4K-wiki
@@ -31,9 +31,9 @@ plugins:
   #     branch: main
 
 markdown_extensions:
-   - pymdownx.arithmatex:
-       generic: true
-   - pymdownx.betterem
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
 
 extra_css:
   - stylesheets/extra.css
@@ -44,20 +44,20 @@ extra_javascript:
 
 nav:
   - Home:
-    - 前言: index.md
+      - 前言: index.md
   - 基本常识: common.md
   - 键型:
-    - Index: pattern/index.md
-    - 排列: pattern/pailie.md
-    - 常规: pattern/rice.md
-    - 面条: pattern/LN.md
-    - Vibro: pattern/vibro.md
-    - 变速: pattern/SV.md
+      - Index: pattern/index.md
+      - 排列: pattern/pailie.md
+      - 常规: pattern/rice.md
+      - 面条: pattern/LN.md
+      - Vibro: pattern/vibro.md
+      - 变速: pattern/SV.md
   - 写谱: mapping.md
   - 难度体系:
-    - 段位: difficulty-rate/dan.md
-    - 星数: difficulty-rate/starrate.md
-    - 不同体系的转换: difficulty-rate/conversation.md
+      - 段位: difficulty-rate/dan.md
+      - 星数: difficulty-rate/starrate.md
+      - 不同体系的转换: difficulty-rate/conversation.md
 
   - 附录:
-    - 段位下载方式: appendix/appxA.md
+      - 段位下载方式: appendix/appxA.md
